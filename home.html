@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furbaby</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bubbler+One&family=Sono:wght@800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <i class="fa-solid fa-paw" style="color: #F4A905;"></i>
+        <h4 class="logo">FURBABY</h4>
+        <!--<img src="img/logo.png"class="logo">-->
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="aboutus.html">Abouts</a></li>
+            <li><a href="food.html">Foods</a></li>
+            <li><a href="vaccine.html">Vaccines</a></li>
+        </ul>   
+            <img src="img/prof.png" class="user-pic" onclick="toggleMenu()">
+
+            <div class="sub-menu-wrap" id="subMenu">
+                <div class="sub-menu">
+                    <div class="user-info">
+                        <img src="">
+                        <h2>Winter</h2>
+                    </div>
+                    <hr>
+
+                    <a href="profile.html" class="sub-menu-link">
+                        <i class="fa-regular fa-user"></i>
+                        <p>Edit Profile</p>
+                        <span></span>
+                    </a>
+
+                    <a href="#" class="sub-menu-link">
+                        <i class="fa-solid fa-right-from-bracket"></i>
+                        <p>Logout</p>
+                        <span></span>
+                    </a>
+                </div>
+            </div>        
+        </nav> 
+        <img src="img/coverpage.png" class="coverpage">
+          <div class="cover-info">
+                    <h1 class="cover-title"><i class="fa-solid fa-paw" style="color: #F4A905;"></i>FURBABY</h1> 
+                    <p class="cover-content">Welcome to our website for pet care! We are your go-to resource for all  <br> 
+                                            things pertaining to pets. Our website provides a wealth of knowledge about <br> 
+                                            pet care, health, and behavior to assist you in giving your cherished animal<br>
+                                            friends the best possible life. <br>
+            </div>
+    </div>
+<script>
+    let subMenu = document.getElementById("subMenu");
+
+    function toggleMenu(){
+        subMenu.classList.toggle("open-menu");
+    }
+</script>
+
+    <div class="lorem">
+        <h3 class="htitle">Caring for Your Furry Friends: The Ultimate Pet Care Website</h3>
+        <p>Welcome to our comprehensive pet care website, where you'll find everything you need to know about caring for your furry friends! <br>
+            Our website offers a wealth of information on pet care, from feeding and grooming to training and behavior. With our easy-to-use<br>
+            navigation and user-friendly design, you can quickly find the information you need to keep your pets happy and healthy. Whether  <br>
+            you're a new pet owner or a seasoned pro, our website is the perfect resource to help you provide the best care for your beloved <br>
+            pets. We provide expert advice from experienced professionals, as well as valuable insights and tips from fellow pet owners. Our <br>
+            website also features a community forum, where you can connect with other pet owners, ask questions, and share your own experiences. <br>
+            From dogs and cats to birds and reptiles, our website covers a wide range of pets and their unique care needs.You'll also find  <br>
+            product reviews and recommendations, as well as information on the latest pet trends and innovations.At our pet care website, we <br>
+            believe that pets are family, and we're committed to helping you provide them with the best care possible. Thank you for choosing <br>
+            our website as your go-to resource for  all things pet care. We look forward to helping you and your furry friends thrive</p>
+            <br>
+    
+    </div>
+                    <img src="img/footer.png" class="footerpets">
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4> company </h4>
+                        <ul>
+                            <li> <a href="">about us</a></li>
+                            <li> <a href="">our services</a></li>
+                            <li> <a href=""> privacy policy</a></li>
+                            <li> <a href=""> affiliate program</a></li>
+                        </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4> help </h4>
+                        <ul>
+                            <li> <a href="">FAQ</a></li>
+                            <li> <a href="">shipping</a></li>
+                            <li> <a href="">returns</a></li>
+                            <li> <a href="">order status</a></li>
+                            <li> <a href=""> paynment options</a></li>
+                        </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4> follow us </h4>
+                        <ul>
+                            <li> <a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                            <li> <a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                            <li> <a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                            <li> <a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                        </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4> fasda </h4>
+                        <ul>
+                            <li> <a href=""></a></li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

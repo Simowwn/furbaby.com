@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <div class="back-icon">
+        <a href="home.html">
+            <i class="fa-sharp fa-solid fa-rotate-left" style="color: #fff;"></i> 
+        </a>
+      </div>
+</head>
+<body class="profile-bg">
+    <div class="prof-form">
+    <form action="submit.php" method="post" enctype="multipart/form-data">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      
+        <label for="breed">Breed:</label>
+        <input type="text" id="breed" name="breed" required>
+  
+        <label for="gender">Gender:</label>
+        <div class="gender-options">
+          <input type="radio" id="male" name="gender" value="male" required>
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="female" required>
+          <label for="female">Female</label>
+        </div>
+
+
+        <label for="pets">Choose a pet:</label>
+        <select name="pets" id="pets">
+            <option value="cat">Cat</option>
+            <option value="dog">Dog</option>
+            <option value="fish">Fish</option>
+            <option value="bird">Bird</option>
+        </select> 
+        <br>
+        <br>
+         <label for="vaccine">Vaccines:</label>
+        <div class="vaccine-options">
+          <input type="radio" id="rabies" name="rabies" value="rabies" required>
+          <label for="rabies">Rabies</label>
+
+          <input type="radio" id="parvovirus" name="parvovirus" value="parvovirus" required>
+          <label for="parvovirus">Parvovirus</label>
+
+          <input type="radio" id="hepatitis" name="hepatitis" value="hepatitis" required>
+          <label for="hepatitis">Hepatitis</label>
+          
+          <input type="radio" id="influenza" name="influenza" value="influenza" required>
+          <label for="influenza">Influenza</label>
+
+          <input type="radio" id="adenovirus" name="adenovirus" value="adenovirus" required>
+          <label for="adenovirus">Adenovirus</label>
+        </div>
+
+        <br>
+        <br>
+        <label for="weight">Weight:</label>
+        <input type="weight" id="weight" name="weight" required>
+
+        <br>
+        <br>
+        <label for="owner">Owner:</label>
+        <input type="owner" id="owner" name="owner" required>
+
+        <br>
+        <br>
+        <label for="address">Address:</label>
+        <input type="address" id="Address" name="Address" required>
+
+
+        <br>
+        <br>
+        <label for="profile-pic">Profile Picture:</label>
+        <input type="file" id="profile-pic" name="profile-pic" accept="image/*" required>
+      
+        <button type="submit">Submit</button>
+        <button type="submit">Edit</button>
+        <button type="submit">Update</button>
+      </form>
+    </div>
+</body>
+</html>

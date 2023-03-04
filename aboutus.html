@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furbaby</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bubbler+One&family=Sono:wght@800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <i class="fa-solid fa-paw" style="color: #F4A905;"></i>
+        <h4 class="logo">FURBABY</h4>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="aboutus.html">Abouts</a></li>
+            <li><a href="food.html">Foods</a></li>
+            <li><a href="vaccine.html">Vaccines</a></li>
+        </ul>   
+            <img src="img/prof.png" class="user-pic" onclick="toggleMenu()">
+
+            <div class="sub-menu-wrap" id="subMenu">
+                <div class="sub-menu">
+                    <div class="user-info">
+                        <img src="">
+                        <h2>Winter</h2>
+                    </div>
+                    <hr>
+
+                    <a href="profile.html" class="sub-menu-link">
+                        <i class="fa-regular fa-user"></i>
+                        <p>Edit Profile</p>
+                        <span></span>
+                    </a>
+
+                    <a href="#" class="sub-menu-link">
+                        <i class="fa-solid fa-right-from-bracket"></i>
+                        <p>Logout</p>
+                        <span></span>
+                    </a>
+                </div>
+            </div>        
+        </nav>   
+        
+        <img src="img/aboutus.png" class="coverpage-2">
+        
+    </div>
+<script>
+    let subMenu = document.getElementById("subMenu");
+
+    function toggleMenu(){
+        subMenu.classList.toggle("open-menu");
+    }
+</script>
+
+<div class="lorem-aboutus">
+    <h3 class="htitle">About Us: Veterinarian Care for Your Beloved Pets</h3>
+    <p>As a good pet care company, our mission is to provide the best possible care for your furry family members. We understand that pets are an integral  <br>
+        part of your family, and we take their care seriously. Our team of dedicated and experienced professionals is passionate about providing a safe,    <br>
+        comfortable, and nurturing environment for your pets. At our company, we believe that every pet is unique, and we strive to meet their individual   <br>
+        needs. Whether your pet needs regular grooming, training, or veterinary care, we are here to help. Our team is trained to handle all types of pets, <br>
+        from dogs and cats to birds and reptiles, and we take pride in providing personalized care for each and every one. We also understand the importance <br>
+        of communication and transparency when it comes to pet care. That's why we make it a priority to keep you informed about your pet's well-being and <br>
+        progress. We are always available to answer your questions and address any concerns you may have. In addition to providing top-notch pet care services,<br>
+        we are also committed to promoting responsible pet ownership. We believe that education and outreach are key to ensuring the health and happiness of pets <br>
+        everywhere. That's why we offer resources and information to help pet owners make informed decisions about their pet's care. At our company, we are more <br>
+        than just a pet care provider – we are a trusted partner in your pet's health and happiness. We take pride in providing the highest level of care and <br>
+        attention to every pet that walks through our doors. Thank you for choosing us as your pet care provider.</p>
+        <br>
+        <br>
+        <br>
+                
+</div>
+
+    <!--FOOTER-->
+                    <img src="img/footer.png" class="footerpets">
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4> company </h4>
+                        <ul>
+                            <li> <a href="">about us</a></li>
+                            <li> <a href="">our services</a></li>
+                            <li> <a href=""> privacy policy</a></li>
+                            <li> <a href=""> affiliate program</a></li>
+                        </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4> help </h4>
+                        <ul>
+                            <li> <a href="">FAQ</a></li>
+                            <li> <a href="">shipping</a></li>
+                            <li> <a href="">returns</a></li>
+                            <li> <a href="">order status</a></li>
+                            <li> <a href=""> paynment options</a></li>
+                        </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4> follow us </h4>
+                        <ul>
+                            <li> <a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                            <li> <a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                            <li> <a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                            <li> <a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                        </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4> fasda </h4>
+                        <ul>
+                            <li> <a href=""></a></li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
